@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             folders: {
                 files: {
                     'assets/scss/libs/animejs/anime.scss': 'animejs/documentation/assets/css/anime.css',
-                    'assets/js/libs/anime.js': 'animejs/documentation/assets/js/anime.js',
+                    'assets/js/libs/anime.js': 'animejs/documentation/assets/js/anime.2.0.1.js',
                 },
             }
         },
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
             dist: {
                 src: [
                     'assets/js/script.js',
-                    'assets/js/libs/animejs/anime.js',
+                    'assets/js/libs/*',
                 ],
                 dest: 'dist/js/bundle.js'
             }
