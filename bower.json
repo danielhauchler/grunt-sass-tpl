@@ -1,0 +1,17 @@
+{
+  "name": "grunt-bower",
+  "description": "Grunt + bower = sex",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
